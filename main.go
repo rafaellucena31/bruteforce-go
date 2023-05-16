@@ -3,8 +3,6 @@ package main
 //f32cd21c2cf422762bef2fcd150edb35 = 012Rafael
 //abcdefghijklmnopqrstuvxzywJKR
 import (
-	bfworker "bruteforce-generic/core"
-	"bruteforce-generic/models"
 	"encoding/hex"
 	"fmt"
 	"math"
@@ -13,6 +11,8 @@ import (
 	tm "github.com/buger/goterm"
 	hmz "github.com/dustin/go-humanize"
 	"github.com/fatih/color"
+	bfworker "github.com/rafaellucena31/bf/core"
+	models "github.com/rafaellucena31/bf/models"
 )
 
 func clearPartialScreen(x int, y int) {

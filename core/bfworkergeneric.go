@@ -1,13 +1,14 @@
 package bfworkergeneric
 
 import (
-	"bruteforce-generic/models"
 	"crypto/md5"
 	"encoding/hex"
 	"fmt"
 	"math"
 	"strings"
 	"time"
+
+	models "github.com/rafaellucena31/bf/models"
 )
 
 //StartBruteForce Inicia o processo de tentar descobrir a password
